@@ -1,0 +1,12 @@
+Estonia | Tallinn | 45 339 km2 | 1 365 884 | € (EUR) | estonia
+France | Paris | 643 801 km2 | 68 042 591 | € (EUR) | france
+Germany | Berlin | 357 600 km2 | 84 482 267 | € (EUR) | germany
+Ireland | Dublin | 70 273 km2 | 5 281 600 | € (EUR) | ireland
+Italy | Rome | 301 340 km2 | 58 853 482 | € (EUR) | italy
+Monaco | Monaco | 2.08 km2 | 39 050 | € (EUR) | monaco
+Nigeria | Abuja | 923 769 km2 | 230 842 743 | ₦ (NGN) | nigeria
+Poland | Warsaw | 313 931 km2 | 41 026 068 | zł (PLN) | poland
+Russia | Moscow | 17 098 246 km2 | 147 182 123  | ₽ (RUB) | russia
+Spain | Madrid | 505 994 km2 | 48 345 223 | € (EUR) | spain
+UK | London | 242 495 km2  | 66 971 411 | £ (GBP) | uk
+USA | Washington, D.C. | 9 833 520 km2 | 333 287 557 | $ (USD) | us

@@ -21,6 +21,19 @@ class ViewController: UITableViewController {
             } catch {
                 print("Failed to load countries.")
             }
+            
+            if countries.isEmpty {
+                if let url = Bundle.main.url(forResource: "countriesInfo", withExtension: "txt") {
+                    if let countriesInfoString = try? String(contentsOf: url) {
+                        let countriesInfo = countriesInfoString.components(separatedBy: "\n")
+                        for countryInfo in countriesInfo {
+                            let infoArray = countryInfo.components(separatedBy: " | ")
+                            let country = Country(name: infoArray[0], capitalCity: infoArray[1], size: infoArray[2], population: infoArray[3], currency: infoArray[4], flag: infoArray[5])
+                            countries.append(country)
+                        }
+                    }
+                }
+            }
         }
     }
     
